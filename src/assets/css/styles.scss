@@ -1,0 +1,24 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+//Input variables
+$input-radius: 10px;
+$input-background-color: #f1f5f7;
+
+//Progress-bar variables
+$progress-value-background-color: #0050a0;
+$progress-border-radius: 0px;
+$progress-bar-background-color: transparent;
+
+//Tag variables
+$tag-radius: 8px;
+$tag-background-color: rgba(72, 184, 170, 0.1);
+$tag-color: #48b8aa;
+
+//datepicker variables
+$datepicker-radius: 10px;
+$datepicker-shadow: none;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
